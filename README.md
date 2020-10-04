@@ -1,6 +1,21 @@
 ### Week 2 : Assignment - William Mutua
 
-Solution: 
+
+a) What items should the thief take, for items taken as fractions, indicate the fractions
+
+The ratio between the profit and the weight (p/w) gives the order of priority of which objects should be considered first, from the highest ratio to the lowest ratio representing the first and last object the thief should choose. This will maximize profit and also take into consideration the max W of the knapsack
+
+Ratio A=5, B=1.67,C=4,D=1, E=6,F=3.6, G=3
+In order of priority, they should first take=E,A,C,F,G,B,D
+
+The thief should take 
+E=1,A=1,C=1,F=1,G=1,B=(16-14)/3=0.67,D=0
+
+b)What will be the total profit the thief will achieve for selecting these items.
+6+10+20+18+3+(0.67*5)=60.3
+
+
+c)Solution: 
 ```
     Jupyter Notebook
 ```
